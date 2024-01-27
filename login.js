@@ -31,7 +31,6 @@ const LoginPage = ({ onLogin }) => {
   const [error, setError] = useState('');
 
   const handleLogin = () => {
-    // For simplicity, using a fake authentication function
     if (username === 'user' && password === 'password') {
       onLogin(username);
     } else {
